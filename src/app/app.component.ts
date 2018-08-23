@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'lidy',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-tour-of-materia';
+  title = 'tour-of-materia';
+  minombre: string = "Materia 1";
+  mimateria:string = "Materias Lidy";
+  materia1:string = "Matematicas";
 }
